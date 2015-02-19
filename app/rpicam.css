@@ -1,15 +1,5 @@
 .rpicam-device .rpicam-preview-thumb {
-  margin-top: -1px;
-  width: 34px;
-  height: 34px;
-  display: inline-block;
-}
-
-.rpicam-device .preview-info {
-  margin: 5px 10px 5px 0 !important;
-  position: absolute;
-  right: 0;
-  top: 0;
+ max-width: 100%;
 }
 
 .rpicam-device .preview-info span{
@@ -27,4 +17,20 @@
 .rpicam-crontrols, .rpicam-full-previw {
   width: 100%;
   text-align: center;
+}
+
+.rpicam-device>label.device-label {
+  display: none;
+}
+
+li.sortable.device.no-header.rpicam-device.item.ui-li-static.ui-body-inherit {
+  overflow: hidden;
+}
+
+.rpicam-device>label.device-label {
+  display: none;
+}
+
+.rpicam-device span {
+  display: none;
 }
